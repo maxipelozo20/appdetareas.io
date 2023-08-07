@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 238, 255);
+    background-color: #00457E;
     color: #212121;
 }
 
@@ -10,10 +10,12 @@ main{
 }
 
 .main{
-    background-color: aliceblue;
+    background-color: #02315E;
     padding: 20px 40px 0px 40px;
     border: solid white 1px;
     border-radius: 10px;
+    color: #F1BAA1;
+    font-family: 'Quicksand', sans-serif;
 }
 
 div div{
@@ -25,3 +27,22 @@ div div{
 p{
     padding-left: 10px;
 }
+
+.escribir{
+    margin-left: 70px;
+    background-color: #2F70AF;
+}
+
+::placeholder{
+    color: Blue
+}
+
+input[type="text"] {
+    color: white; 
+}
+
+h1{
+    color: #d1ceed;
+}
+
+
