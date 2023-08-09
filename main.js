@@ -1,8 +1,8 @@
-const input = document.getElementById('input');
+let input = document.getElementById('input');
 
-function toggleTextDecoration(btnNumber) {
-const btn = document.getElementById('checkbox-' + btnNumber);
-const txt = document.getElementById('txt-' + btnNumber);
+function TacharPalabra(btnNumber) {
+let btn = document.getElementById('checkbox-' + btnNumber);
+let txt = document.getElementById('txt-' + btnNumber);
 
 btn.addEventListener('click', () => {
     if (input.value.trim() === '') {
@@ -26,13 +26,13 @@ input.addEventListener('input', () => {
 });
 }
 
-toggleTextDecoration(1);
-toggleTextDecoration(2);
-toggleTextDecoration(3);
-toggleTextDecoration(4);
-toggleTextDecoration(5);
-toggleTextDecoration(6);
-toggleTextDecoration(7);
-toggleTextDecoration(8);
-toggleTextDecoration(9);
-toggleTextDecoration(10);
+TacharPalabra(1);
+TacharPalabra(2);
+TacharPalabra(3);
+TacharPalabra(4);
+TacharPalabra(5);
+TacharPalabra(6);
+TacharPalabra(7);
+TacharPalabra(8);
+TacharPalabra(9);
+TacharPalabra(10);
